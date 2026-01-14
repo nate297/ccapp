@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // Intentionally BUGGY credit card utilization app
 // Notes: This file intentionally contains logic, state, and UX bugs for practice.
-// ⚠️ Do NOT use this in dev.
+// ⚠️ Do NOT use this in production.
 
 export default function BuggyCreditUtilizationApp() {
   const [cards, setCards] = useState([
