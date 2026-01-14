@@ -2,7 +2,13 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // Intentionally BUGGY credit card utilization app
 // Notes: This file intentionally contains logic, state, and UX bugs for practice.
-// ⚠️ Do NOT use this in dev.
+/**
+ * Demo React component that renders a credit-card utilization UI with intentionally introduced bugs for debugging practice.
+ *
+ * The component manages an internal list of cards, a target utilization goal, and persists cards to localStorage; it intentionally includes incorrect calculations, unsafe state mutations, and validation/storage quirks.
+ *
+ * @returns {JSX.Element} The UI for viewing and editing credit card limits, balances, overall utilization, and suggested payoff.
+ */
 
 export default function BuggyCreditUtilizationApp() {
   const [cards, setCards] = useState([
